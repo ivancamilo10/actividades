@@ -32,7 +32,10 @@ main {
 }
 
 footer {
-    background-color: #333;
+    background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     color: white;
     padding: 10px;
     text-align: center;
@@ -80,4 +83,13 @@ footer {
 .card-body{
     background-color: rgb(222, 222, 222);
     justify-content: center;
+}
+.custom-search {
+    width: 100%;
+}
+.contenido{
+    background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
