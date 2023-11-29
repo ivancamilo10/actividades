@@ -88,8 +88,48 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
     width: 100%;
 }
 .contenido{
-    background: #11998e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #11998e;  
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
+background: linear-gradient(to right, #38ef7d, #11998e); 
 
 }
+
+.bg-body-tertiary {
+    padding: 20px;
+    background-color: green; 
+}
+
+.bg-white {
+    padding: 20px;
+    background-color: #7e1b1b; 
+}
+
+.bg-body-tertiary {
+    background-color: green; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.bg-white {
+    background-color: #af0909; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-icon {
+    margin-right: 15px;
+    font-size: 20px;
+}
+
+.footer-icon:last-child {
+    margin-right: 0;
+}
+
