@@ -32,11 +32,9 @@ main {
 }
 
 footer {
-    background: #11998e;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    color: white;
+    background-image: url('concepto-fondo-papel-abstracto.jpg');
+    
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
 }
@@ -88,9 +86,7 @@ background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, F
     width: 100%;
 }
 .contenido{
-    background: #11998e;  
-background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  
-background: linear-gradient(to right, #38ef7d, #11998e); 
+    background-image: url('concepto-fondo-papel-abstracto.jpg');
 
 }
 
